@@ -7,3 +7,13 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use App\Router;
 
 $router = new Router();
+
+$router->get('/', function () {
+    echo 'HomePage';
+});
+
+$router->get('/about', function () {
+    echo 'About Page';
+});
+
+$router->run();
