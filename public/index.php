@@ -16,4 +16,8 @@ $router->get('/about', function () {
     echo 'About Page';
 });
 
+$router->addNotFoundHandler(function () {
+    echo 'Page Not Found';
+});
+
 $router->run();
