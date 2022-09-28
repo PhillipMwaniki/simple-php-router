@@ -1,0 +1,19 @@
+{
+    "name": "phillipmwaniki/php-router",
+    "description": "A custom php router for quick apps",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Phillip Mwaniki",
+            "email": "codezeroprivate@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
